@@ -1,0 +1,7 @@
+# mean_error, min_error, max_error, std_error, mode_error, rms_error
+   0.07567
+   0.00000
+   0.50000
+   0.11352
+   0.00000
+   0.11361

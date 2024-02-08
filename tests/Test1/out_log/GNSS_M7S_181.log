@@ -1,0 +1,33 @@
+14:26:37 [INFO] root: Train & Validation data 90.0%:
+14:26:37 [INFO] root: x_train: (24888, 7, 181, 3)
+14:26:37 [INFO] root: y_train: (24888,)
+14:26:37 [INFO] root: x_val: (6222, 7, 181, 3)
+14:26:37 [INFO] root: y_val: (6222,)
+14:26:37 [INFO] root: Test_data10.0%:
+14:26:37 [INFO] root: x_test: (3457, 7, 181, 3)
+14:26:37 [INFO] root: y_test: (3457,)
+
+14:26:37 [INFO] root: Total epochs = 200
+14:26:37 [INFO] root: Batch size = 128
+14:26:38 [INFO] root: 
+ Using 'standard' learning rate decay...
+14:26:38 [INFO] root: initial learning rate: 0.0100
+14:26:38 [INFO] root: initial decay: 0.0005 
+
+14:31:02 [INFO] root: 
+Validation:
+14:31:02 [INFO] root: loss: 0.01300
+14:31:02 [INFO] root: mae: 0.08225
+14:31:02 [INFO] root: lr: 0.00079
+14:31:02 [DEBUG] h5py._conv: Creating converter from 5 to 3
+14:31:02 [INFO] root: History attributes:
+14:31:02 [INFO] root: dict_keys(['loss', 'mae', 'lr', 'val_loss', 'val_mae', 'val_lr'])
+14:31:03 [INFO] root: 
+Prediction report:
+14:31:03 [INFO] root: Mean Absolute Error:      0.073
+14:31:03 [INFO] root: Min Absolute Error:      0.000
+14:31:03 [INFO] root: Max Absolute Error:      0.600
+14:31:03 [INFO] root: Std Dev:      0.110
+14:31:03 [INFO] root: Mode Absolute Error:      0.000
+14:31:03 [INFO] root: RMSE:      0.110
+14:31:03 [INFO] root: Finished *********************************************************************
