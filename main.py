@@ -14,19 +14,19 @@ nst = 3 # Nunmber of stations #Set 3 or 7
 nc = 3 # Channels. Don't change it.
 case_nm = 'GNSS_M'+str(nst)+'S_'+str(nt)  #'GNSS_M3S_181/' #'GNSS_M7S_181/' #'GNSS_M7S_501/'
 
-# Paths
-
-dir_datinf = './tests/data_info_1/' # Set the folder name!
-dir_trmodel = './tests/models_1/' # Set the folder name!
-dir_pred = './tests/predictions_1/' # Set the folder name!
-dir_log = './tests/out_log/' # Set the folder name
-filelog = case_nm+'.log'# Set the logging file name!
+# Paths # Set the folder and file names!
+dir_out = './tests' 
+dir_datinf = dir_out+'/data_info_1/'
+dir_trmodel = dir_out+'/models_1/'
+dir_pred = dir_ou+'/predictions_1/'
+dir_log = dir_out+'/out_log/'
+filelog = case_nm+'.log'
 
 # ****************************************************************************
 def main():
     
     # Create the output folders
-    make_outfolders(dir_log,dir_datinf,dir_trmodel,dir_pred)
+    make_outfolders(dir_out,dir_log,dir_datinf,dir_trmodel,dir_pred)
         
     logging.basicConfig(
         filename=dir_log+filelog,
