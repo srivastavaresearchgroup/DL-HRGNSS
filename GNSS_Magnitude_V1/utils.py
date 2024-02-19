@@ -5,7 +5,10 @@ import os
 from sklearn.model_selection import train_test_split
 
 #
-def make_outfolders(dir_log,dir_info,dir_trmodel,dir_pred):
+def make_outfolders(dir_out,dir_log,dir_info,dir_trmodel,dir_pred):
+    if not os.path.exists(dir_out):
+        os.mkdir(dir_out)
+
     if not os.path.exists(dir_log):
         os.mkdir(dir_log)
         
