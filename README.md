@@ -57,7 +57,7 @@ You can use Data_plot.ipynb to plot the waveforms.
 Refer to Quinteros et al., 2024 (https://doi.org/10.1016/j.jsames.2024.104815) for 
 more details about the data configuration.
 
-# Pretrained models & results
+# Pretrained models and results
 
 The pre-trained  models are located in `./trained_models`.
 These models are described in Quinteros et al., 2024 
